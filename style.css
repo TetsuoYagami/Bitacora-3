@@ -1,0 +1,240 @@
+@font-face{
+    font-family: "Niertext";
+    src: url(../fonts/FOT-Rodin-Pro-DB.otf);
+}
+@font-face{
+    font-family: "Darling";
+    src: url(../fonts/Darling.ttf);
+}
+@font-face{
+    font-family: "WAS";
+    src: url(../fonts/who-asks-satan.ttf);
+}
+*{
+    font-family: "Niertext";
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    height: auto;
+    background-color: brown;
+}
+main{
+    width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+header{
+    width: 1500px;
+    height: 300px;
+}
+header img{
+    width: 1500px;
+    height: 300px;
+}
+
+nav{
+    width: 1500px;
+    height: 50px;
+    background-image: linear-gradient(to left, #53354A, #53354A, #53354A, #e8454500);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+nav a{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 30px;
+    color: antiquewhite;
+    background-color: #53354A;
+    transition: .5s;
+}
+nav a:hover{
+    transform: scale(1.2);
+    background-color: cyan;
+}
+
+.db{
+    margin-top: 15px;
+    width: 1490px;
+    height: 40px;
+    background-image: linear-gradient(to right, blue, green, yellow, cyan);
+    padding: 5px;
+}
+.db h2{
+    margin: 3px;
+    color: whitesmoke;
+}
+#rec1{
+    width: 1500px;
+    height: 425px;
+    background-image: linear-gradient(to right, #E84545, #E84545, #E84545, #e8454500);
+}
+
+.tabla{
+    width: 550px;
+    height: 400px;
+}
+.tabla table{
+    background-color: whitesmoke;
+    width: 500px;
+    border-spacing: 0;
+    box-shadow: 3px 3px 5px black;
+}
+.tabla thead{
+    background-color: #903749;
+    color: aliceblue;
+}
+.tabla tbody tr:nth-child(odd){
+    background-color: rgb(184, 184, 184);
+}
+.tabla tbody td{
+    padding: 5px;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+.tabla tbody td:last-child{
+    border-right: 0;
+}
+.imgs{
+    width: 400px;
+    height: 400px;
+    overflow-y: scroll;
+}
+.imgs img{
+    width: 300px;
+    height: 300px;
+    margin-left: 1px;
+    display: inline-block;
+}
+.txtimgf{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 20px;
+    color: white;
+}
+.imgf1{
+    filter: blur(15px);
+}
+.imgf2{
+    filter: contrast(80%);
+}
+.imgf3{
+    filter: brightness(50%);
+}
+.imgf4{
+    filter: drop-shadow(5px, 5px 2px, blue);
+}
+.imgf5{
+    filter: grayscale(50%);
+}
+.imgf6{
+    filter: hue-rotate(60deg);
+}
+.imgf7{
+    filter: invert(75%);
+}
+.imgf8{
+    filter: opacity(25%);
+}
+.imgf9{
+    filter: saturate(50%);
+}
+.imgf10{
+    filter: sepia(1);
+}
+
+.sec{
+    background-color: white;
+    color: blue;
+    padding: 5px;
+}
+
+.sptxt{
+    color: rgb(15, 110, 110);
+    background-color: beige;
+    padding: 5px;
+}
+#sptxtcolor{
+    background-color: crimson;
+    color: cyan !important;
+    padding: 5px;
+}
+
+.AYB{
+    background-color: rgb(255, 108, 108);
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.before::before{
+    content: "Touhou";
+    background-color: aliceblue;
+}
+.after::after{
+    content: "Project";
+    background-color: rgb(224, 224, 224);
+}
+
+.contxt{
+    float: left;
+    width: 750px;
+    height: 380px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #53354A;
+    color: whitesmoke;
+    overflow-y: scroll;
+}
+.muestra{
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+}
+.imagen{
+    width: 400px;
+    height: 400px;
+}
+
+.container{
+    position: relative;
+}
+.bltxtimg{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-family: "Darling";
+    font-size: 45px;
+    color: red;
+}
+.bltxtimg2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-family: "WAS";
+    font-size: 45px;
+    color: red;
+}
+
+footer{
+    width: 1400px;
+    height: 150px;
+    color: white;
+    background-color: #53354A;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
